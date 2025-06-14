@@ -1,0 +1,7 @@
+[
+    {
+      "goal": "Find the next SpaceX launch, check weather at that location, then summarize if it may be delayed.",
+      "expected_keywords": ["Launch", "delayed", "conditions"]
+    }
+  ]
+  

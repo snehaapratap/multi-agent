@@ -1,7 +1,14 @@
 [
-    {
-      "goal": "Find the next SpaceX launch, check weather at that location, then summarize if it may be delayed.",
-      "expected_keywords": ["Launch", "delayed", "conditions"]
-    }
-  ]
-  
+  {
+    "id": "test_case_1",
+    "goal": "Find the next SpaceX launch, check weather at that location, then summarize if it may be delayed.",
+    "expected_keywords": ["Launch", "Conditions", "wind", "temperature", "delay"],
+    "note": "Basic weather condition evaluation"
+  },
+  {
+    "id": "test_case_2",
+    "goal": "Find the next SpaceX launch and check if current wind speed at the location exceeds 20kph.",
+    "expected_keywords": ["wind", "speed", "delay", "launch"],
+    "note": "Specifically tests wind speed threshold logic (wind_kph > 20)"
+  }
+]
